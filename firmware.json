@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "packages": [
+    {
+      "path": "firmware/km003c/1.7.9/2023.7.14-f8974b15601e2a6c58e9daddf9136ee9f903db723f2bca190d4249f659a65fc2.mencrypt",
+      "sha256": "f8974b15601e2a6c58e9daddf9136ee9f903db723f2bca190d4249f659a65fc2",
+      "original_filename": "KM003C_V1.7.9.mencrypt",
+      "source": "manufacturer-archive-20261028"
+    },
+    {
+      "path": "firmware/km003c/1.8.0/2023.8.4-a9ddb5f20307562182acde6797e819cf5fbdc578e0851a19712b14e445b6661d.mencrypt",
+      "sha256": "a9ddb5f20307562182acde6797e819cf5fbdc578e0851a19712b14e445b6661d",
+      "original_filename": "KM003C_V1.8.0.mencrypt",
+      "source": "manufacturer-archive-20261028"
+    },
+    {
+      "path": "firmware/km003c/1.8.4/2023.9.25-48b9a98c9cec03331e964ad707737ad8f5d69adbcc8c4103fd93782265e21ef3.mencrypt",
+      "sha256": "48b9a98c9cec03331e964ad707737ad8f5d69adbcc8c4103fd93782265e21ef3",
+      "original_filename": "KM003C_V1.8.4.mencrypt",
+      "source": "manufacturer-archive-20261028"
+    },
+    {
+      "path": "firmware/km003c/1.8.5/2023.12.6-b36be632b21baddb63379ec24d76be7d7cbfeabd20ca046f1a0686de7a0740d7.mencrypt",
+      "sha256": "b36be632b21baddb63379ec24d76be7d7cbfeabd20ca046f1a0686de7a0740d7",
+      "original_filename": "KM003C_V1.8.5.mencrypt",
+      "source": "manufacturer-archive-20261028"
+    },
+    {
+      "path": "firmware/km003c/1.8.6/2024.1.15-6043bbab97dccb93738a77b80cace13d4a7253cde320aceb241c6b2979a6a275.mencrypt",
+      "sha256": "6043bbab97dccb93738a77b80cace13d4a7253cde320aceb241c6b2979a6a275",
+      "original_filename": "KM003C_V1.8.6.mencrypt",
+      "source": "manufacturer-archive-20261028"
+    },
+    {
+      "path": "firmware/km003c/1.8.7/2024.2.18-d1cf2ecb63469338d5b577ac9a3fc9d38b00dcdf883f44b3454f8637cb21f093.mencrypt",
+      "sha256": "d1cf2ecb63469338d5b577ac9a3fc9d38b00dcdf883f44b3454f8637cb21f093",
+      "original_filename": "KM003C_V1.8.7.mencrypt",
+      "source": "manufacturer-archive-20261028"
+    },
+    {
+      "path": "firmware/km003c/1.8.8/2024.7.2-20de23e9032bf2b33a611b0bc23122f39f7236662a487ab15c9cc4b962a0bbc3.mencrypt",
+      "sha256": "20de23e9032bf2b33a611b0bc23122f39f7236662a487ab15c9cc4b962a0bbc3",
+      "original_filename": "KM003C_V1.8.8.mencrypt",
+      "source": "manufacturer-archive-20261028"
+    },
+    {
+      "path": "firmware/km003c/1.8.9/2024.7.18-9a0da5a9565ac7de1b24948bd52cae39cba50f113af21a348e4a70962c961665.mencrypt",
+      "sha256": "9a0da5a9565ac7de1b24948bd52cae39cba50f113af21a348e4a70962c961665",
+      "original_filename": "KM003C_V1.8.9.mencrypt",
+      "source": "manufacturer-archive-20261028"
+    },
+    {
+      "path": "firmware/km003c/1.9.0/2024.9.13-ec87e015e1198ebc531570a224a6ad902c61f0bd2b66bad7cd9dfc12dc08c361.mencrypt",
+      "sha256": "ec87e015e1198ebc531570a224a6ad902c61f0bd2b66bad7cd9dfc12dc08c361",
+      "original_filename": "KM003C_V1.9.0.mencrypt",
+      "source": "manufacturer-archive-20261028"
+    },
+    {
+      "path": "firmware/km003c/1.9.2/2024.10.25-b0fd64123147638742b5cbdfb0304c41521ff74371b4eb214223fc1191961f25.mencrypt",
+      "sha256": "b0fd64123147638742b5cbdfb0304c41521ff74371b4eb214223fc1191961f25",
+      "original_filename": "KM003C_V1.9.2.mencrypt",
+      "source": "manufacturer-archive-20261028"
+    },
+    {
+      "path": "firmware/km003c/1.9.3/2024.11.12-ea6d1781beb748740e3904c0b3b5735803b29e5c0c39e26a10c1922f20559c39.mencrypt",
+      "sha256": "ea6d1781beb748740e3904c0b3b5735803b29e5c0c39e26a10c1922f20559c39",
+      "original_filename": "KM003C_V1.9.3.mencrypt",
+      "source": "manufacturer-archive-20261028"
+    },
+    {
+      "path": "firmware/km003c/1.9.5/2025.1.6-a8cb82cd1980fbdab8df54b2d1dfc8a6bbc4a9092815a5d2d2210b3407262946.mencrypt",
+      "sha256": "a8cb82cd1980fbdab8df54b2d1dfc8a6bbc4a9092815a5d2d2210b3407262946",
+      "original_filename": "KM003C_V1.9.5.mencrypt",
+      "source": "manufacturer-archive-20261028"
+    },
+    {
+      "path": "firmware/km003c/1.9.7/2025.8.7-71c814571f0d3384ea294bb3f6e83d0b863b6b152e5ec553e8f581728069c9db.mencrypt",
+      "sha256": "71c814571f0d3384ea294bb3f6e83d0b863b6b152e5ec553e8f581728069c9db",
+      "original_filename": "KM003C_V1.9.7.mencrypt",
+      "source": "manufacturer-archive-20261028"
+    },
+    {
+      "path": "firmware/km003c/1.9.9/2025.9.22-cdbdd032c49f074510dcb8f746daf227e77ca4c40e63df7161f18a879f4aecdc.mencrypt",
+      "sha256": "cdbdd032c49f074510dcb8f746daf227e77ca4c40e63df7161f18a879f4aecdc",
+      "original_filename": "KM003C_V1.9.9.mencrypt",
+      "source": "manufacturer-archive-20261028"
+    },
+    {
+      "path": "firmware/km003c/2.0.1/2026.4.21-b0953bf12accfe1b3aff2d1034b21180218fc17a69ac1f84c63aee001c192907.mencrypt",
+      "sha256": "b0953bf12accfe1b3aff2d1034b21180218fc17a69ac1f84c63aee001c192907",
+      "original_filename": "KM003C_V2.0.1.mencrypt",
+      "source": "manufacturer-archive-20261028"
+    },
+    {
+      "path": "firmware/km003c/2.0.1/2026.4.9-e1e67c5c60ec3e0449561ac36005c03215e22f30d1ddeeb3351f814217b65efe.mencrypt",
+      "sha256": "e1e67c5c60ec3e0449561ac36005c03215e22f30d1ddeeb3351f814217b65efe",
+      "original_filename": "KM003C_V2.0.0.mencrypt",
+      "source": "manufacturer-archive-20261028"
+    },
+    {
+      "path": "firmware/km003c/2.0.2/2026.4.29-7f229082db7ec763ef083af06684ff73be986862e21063593dddc939bb73e634.mencrypt",
+      "sha256": "7f229082db7ec763ef083af06684ff73be986862e21063593dddc939bb73e634",
+      "original_filename": "KM003C_V2.0.2.mencrypt",
+      "source": "manufacturer-archive-20261028"
+    },
+    {
+      "path": "firmware/km003c/2.0.3/2026.5.20-9f73eba25b74aa6c6d5ac1baf71117900a85c5a2faa543b8b67a942f5b162cd0.mencrypt",
+      "sha256": "9f73eba25b74aa6c6d5ac1baf71117900a85c5a2faa543b8b67a942f5b162cd0",
+      "original_filename": "KM003C_V2.0.3.mencrypt",
+      "source": "manufacturer-archive-20261028"
+    },
+    {
+      "path": "firmware/km003c/2.0.5/2026.7.15-b3f6705b14bb959576905b2f4c72a79556c8e1944b2232b60eb6c5900f38bd7b.mencrypt",
+      "sha256": "b3f6705b14bb959576905b2f4c72a79556c8e1944b2232b60eb6c5900f38bd7b",
+      "original_filename": "KM003C_V2.0.5.mencrypt",
+      "source": "manufacturer-archive-20261028"
+    },
+    {
+      "path": "firmware/km003c/2.0.6/2026.8.9-33e7034cb15c221e6d772389b42b01f37eab55334d04282e4763bb34868a2444.mencrypt",
+      "sha256": "33e7034cb15c221e6d772389b42b01f37eab55334d04282e4763bb34868a2444",
+      "original_filename": "KM003C_V2.0.6.mencrypt",
+      "source": "manufacturer-archive-20261028"
+    },
+    {
+      "path": "firmware/km003c/2.0.7/2026.9.29-7a081af887fa8873d9e0cfc9cee9654187ab392f882efed16c1904a184ce8454.mencrypt",
+      "sha256": "7a081af887fa8873d9e0cfc9cee9654187ab392f882efed16c1904a184ce8454",
+      "original_filename": "KM003C_V2.0.7.mencrypt",
+      "source": "manufacturer-archive-20261028"
+    }
+  ]
+}

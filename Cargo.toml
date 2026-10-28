@@ -1,0 +1,15 @@
+[package]
+name = "km003c-resource-index"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.97"
+publish = false
+description = "Validate and index archived KM003C firmware packages"
+
+[dependencies]
+clap = { version = "4.6.7", features = ["derive"] }
+hex = "0.4.3"
+km003c-lib = { git = "https://github.com/okhsunrog/km003c-rs", rev = "afdf7cdb3a0ab4f283f07aa8e2fb9304aa88f5d9", version = "0.4.0" }
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+sha2 = "0.11.1"

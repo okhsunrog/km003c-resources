@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KM003C resources</title>
+<style>
+body{font:16px/1.5 system-ui,sans-serif;max-width:1100px;margin:3rem auto;padding:0 1rem;color:#243044;background:#fafbfc}h1,h2{color:#13243d}a{color:#0969da}table{border-collapse:collapse;width:100%;background:white}td,th{text-align:left;padding:.7rem;border-bottom:1px solid #dce2e9;vertical-align:top}small,summary{color:#58667a}details{margin-top:.4rem}pre{white-space:pre-wrap;font:inherit}code{overflow-wrap:anywhere;font-size:.85em}.scroll{overflow-x:auto}#error{color:#a11}
+</style>
+<h1>KM003C resources</h1>
+<p>Archived manufacturer firmware, Windows applications and manuals for POWER-Z KM003C / KM002C.
+Maintained by <a href="https://github.com/okhsunrog/km003c-rs">km003c-rs</a>; this is an independent archive.</p>
+<p><a href="catalog.json">Firmware catalog</a> · <a href="resources.json">Archive index</a> ·
+<a href="https://github.com/okhsunrog/km003c-resources">Repository and import instructions</a></p>
+<p id="error" role="alert"></p>
+<h2>KM003C firmware</h2>
+<p>Versions and build dates below come from the packages. Original filenames can be inaccurate.
+Container integrity has been checked; this does not establish hardware compatibility for every release.</p>
+<div class="scroll"><table><thead><tr><th>Version</th><th>Build date</th><th>Package</th></tr></thead><tbody id="firmware"></tbody></table></div>
+<h2>Applications, manuals and source archives</h2>
+<p>The archived 2.5.1 / 2.5.2 RAR files use the manufacturer-provided password <code>chargerlab</code>.</p>
+<ul id="assets"></ul>
+<script type="module">
+const text=(tag,value)=>{const e=document.createElement(tag);e.textContent=value;return e};
+const link=(url,label)=>{const a=text('a',label);a.href=url;return a};
+try{
+ const [catalog,resources]=await Promise.all(['catalog.json','resources.json'].map(async path=>{const r=await fetch(path);if(!r.ok)throw Error(`${path}: HTTP ${r.status}`);return r.json()}));
+ for(const r of catalog.releases){
+  const row=document.createElement('tr');row.append(text('td',r.version),text('td',r.build_date));
+  const cell=document.createElement('td');cell.append(link(r.url,`Download .mencrypt (${(r.package_size/1024).toFixed(0)} KiB)`));
+  const details=document.createElement('details');details.append(text('summary','Release notes and checksum'));
+  details.append(text('pre',r.notes_en||r.notes_zh||'No release notes supplied.'));
+  details.append(text('p',`Original filename: ${r.original_filename}`),text('code',`SHA-256: ${r.sha256}`));
+  cell.append(details);row.append(cell);document.querySelector('#firmware').append(row);
+ }
+ for(const collection of resources.collections){
+  const li=document.createElement('li');li.append(text('strong',collection.title));const list=document.createElement('ul');
+  for(const asset of collection.assets){const item=document.createElement('li');item.append(link(asset.url,asset.title),text('small',` — ${(asset.size/1024/1024).toFixed(2)} MiB`));list.append(item)}
+  li.append(list);document.querySelector('#assets').append(li);
+ }
+}catch(error){document.querySelector('#error').textContent=`Unable to load archive index: ${error.message}`}
+</script>
+</html>

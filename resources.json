@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "collections": [
+    {
+      "id": "manufacturer-archive-20261028",
+      "title": "Supplied manufacturer archive (imported 2026-10-28)",
+      "imported_at": "2026-10-28",
+      "provenance": {
+        "kind": "user-supplied-archive",
+        "original_filename": "KM003C-20261028T131010Z-1-001.zip",
+        "sha256": "2fa0659384053c566947fa23795c86ff1342b951fc8e96e84df154da2e383f16",
+        "source_url": null
+      },
+      "release_tag": "archive-2026-10-28",
+      "assets": [
+        {
+          "name": "KM003C-20261028T131010Z-1-001.zip",
+          "title": "Complete supplied KM003C resource archive",
+          "kind": "source-archive",
+          "size": 169674748,
+          "sha256": "2fa0659384053c566947fa23795c86ff1342b951fc8e96e84df154da2e383f16",
+          "url": "https://github.com/okhsunrog/km003c-resources/releases/download/archive-2026-10-28/KM003C-20261028T131010Z-1-001.zip",
+          "original_filename": "KM003C-20261028T131010Z-1-001.zip"
+        },
+        {
+          "name": "km003c-km002c-serial-protocol.docx",
+          "title": "KM003C / KM002C virtual serial port protocol instructions",
+          "kind": "manual",
+          "size": 15369,
+          "sha256": "a32a6c8ad2ed33a67fb9a18f3995f9fdf025953ef3f40be5ea9e51b400358adc",
+          "url": "https://github.com/okhsunrog/km003c-resources/releases/download/archive-2026-10-28/km003c-km002c-serial-protocol.docx",
+          "original_archive_path": "POWER-Z KM002C-KM003C/PC Software/KM003C_002C Protocol Trigger by Virtual Serial Port (Instructions).docx"
+        },
+        {
+          "name": "km003c-km002c-user-manual-alternate.pdf",
+          "title": "KM003C / KM002C user manual (alternate edition)",
+          "kind": "manual",
+          "size": 1187390,
+          "sha256": "8612563d9f5b38b41e3e0fc7bea3f300ee10a202984dbf72822c728ff6bef648",
+          "url": "https://github.com/okhsunrog/km003c-resources/releases/download/archive-2026-10-28/km003c-km002c-user-manual-alternate.pdf",
+          "original_archive_path": "POWER-Z KM002C-KM003C/User Manual/ChargerLAB POWER-Z KM003CKM002C USBテスター ユーザーマニュアル.pdf"
+        },
+        {
+          "name": "km003c-km002c-user-manual-en.pdf",
+          "title": "KM003C / KM002C user manual (English)",
+          "kind": "manual",
+          "size": 1179048,
+          "sha256": "2d18a9d39ca97cda5a226a178d8d21304ee63c5250b97121b3a8a0bf706edf36",
+          "url": "https://github.com/okhsunrog/km003c-resources/releases/download/archive-2026-10-28/km003c-km002c-user-manual-en.pdf",
+          "original_archive_path": "POWER-Z KM002C-KM003C/User Manual/ChargerLAB POWER-Z KM003C_KM002C USB Tester User Manual.pdf"
+        },
+        {
+          "name": "power-z-2.5.1-installer.rar",
+          "title": "POWER-Z 2.5.1 Windows installer",
+          "kind": "application",
+          "size": 34821796,
+          "sha256": "dee0b320d25f2219b4fde21c8df5631d80ba7e5ade5d9b61090c3a07af7bca54",
+          "url": "https://github.com/okhsunrog/km003c-resources/releases/download/archive-2026-10-28/power-z-2.5.1-installer.rar",
+          "original_archive_path": "POWER-Z KM002C-KM003C/PC Software/(V2.5.1) PC Software (KM002C_KM003C)(password is chargerlab).rar"
+        },
+        {
+          "name": "power-z-2.5.2-installer.rar",
+          "title": "POWER-Z 2.5.2 Windows installer",
+          "kind": "application",
+          "size": 36439145,
+          "sha256": "db33a3a801c11bdfced1d1e9d30c754efe51d250b3ca32a1459fe84d911d554c",
+          "url": "https://github.com/okhsunrog/km003c-resources/releases/download/archive-2026-10-28/power-z-2.5.2-installer.rar",
+          "original_archive_path": "POWER-Z KM002C-KM003C/PC Software/(V2.5.2) PC Software (KM002C_KM003C)(password is chargerlab).rar"
+        },
+        {
+          "name": "power-z-2.5.2-portable.rar",
+          "title": "POWER-Z 2.5.2 Windows portable",
+          "kind": "application",
+          "size": 31296503,
+          "sha256": "61fdc5d98b761c462e119c072ad376aece73dea70e70c8202fba7327bbe16aa6",
+          "url": "https://github.com/okhsunrog/km003c-resources/releases/download/archive-2026-10-28/power-z-2.5.2-portable.rar",
+          "original_archive_path": "POWER-Z KM002C-KM003C/PC Software/(V2.5.2) PC Software - PE version (KM002C_KM003C)(password is chargerlab).rar"
+        },
+        {
+          "name": "power-z-2.5.1-portable.rar",
+          "title": "POWER-Z 2.5.1 Windows portable",
+          "kind": "application",
+          "size": 53900515,
+          "sha256": "1e950e40e53a7d95fe02507bf3345c8ba7f28501fded934b63f814f00fc10362",
+          "url": "https://github.com/okhsunrog/km003c-resources/releases/download/archive-2026-10-28/power-z-2.5.1-portable.rar",
+          "original_archive_path": "POWER-Z KM002C-KM003C/PC Software/(V2.5.1) PC Software - PE version (KM002C_KM003C)(password is chargerlab).rar"
+        }
+      ]
+    },
+    {
+      "id": "repository-snapshot-2.4.0",
+      "title": "POWER-Z 2.4.0 historical repository snapshot",
+      "imported_at": "2026-10-28",
+      "provenance": {
+        "kind": "git-tree",
+        "repository": "https://github.com/okhsunrog/km003c-rs",
+        "commit": "ef36593342fb7c9e3253347e817ac12da02ba246",
+        "path": "orig_app/stable_2.4.0",
+        "note": "Repacked from the previously public Git tree, including executables and required DLL/resources; not the original vendor ZIP."
+      },
+      "release_tag": "archive-2026-10-28",
+      "assets": [
+        {
+          "name": "power-z-2.4.0-repository-snapshot.zip",
+          "title": "POWER-Z 2.4.0 complete historical files",
+          "kind": "application-snapshot",
+          "size": 32047761,
+          "sha256": "79cd665abbf8345611fb9b0cf6366f616107ac23066b69fc8b8a63d59ab5580c",
+          "url": "https://github.com/okhsunrog/km003c-resources/releases/download/archive-2026-10-28/power-z-2.4.0-repository-snapshot.zip"
+        }
+      ]
+    },
+    {
+      "id": "repository-snapshot-3.0.0-beta",
+      "title": "POWER-Z 3.0.0-beta historical repository snapshot",
+      "imported_at": "2026-10-28",
+      "provenance": {
+        "kind": "git-tree",
+        "repository": "https://github.com/okhsunrog/km003c-rs",
+        "commit": "ef36593342fb7c9e3253347e817ac12da02ba246",
+        "path": "orig_app/powerz_km_win_3.0.0_beta",
+        "note": "Repacked from the previously public Git tree, including executables and required DLL/resources; not the original vendor ZIP."
+      },
+      "release_tag": "archive-2026-10-28",
+      "assets": [
+        {
+          "name": "power-z-3.0.0-beta-repository-snapshot.zip",
+          "title": "POWER-Z 3.0.0-beta complete historical files",
+          "kind": "application-snapshot",
+          "size": 146805856,
+          "sha256": "7fc34dd008721b500b94e2f73d39b643ba5c6ca123b2b17f89958e5ec3570f62",
+          "url": "https://github.com/okhsunrog/km003c-resources/releases/download/archive-2026-10-28/power-z-3.0.0-beta-repository-snapshot.zip"
+        }
+      ]
+    }
+  ]
+}
