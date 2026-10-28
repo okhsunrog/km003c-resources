@@ -10,6 +10,7 @@ body{font:16px/1.5 system-ui,sans-serif;max-width:1100px;margin:3rem auto;paddin
 <p>Archived manufacturer firmware, Windows applications and manuals for POWER-Z KM003C / KM002C.
 Maintained by <a href="https://github.com/okhsunrog/km003c-rs">km003c-rs</a>; this is an independent archive.</p>
 <p><a href="catalog.json">Firmware catalog</a> · <a href="resources.json">Archive index</a> ·
+<a href="https://github.com/okhsunrog/km003c-resources/releases/tag/archive-2026-10-28">Archive downloads and checksums</a> ·
 <a href="https://github.com/okhsunrog/km003c-resources">Repository and import instructions</a></p>
 <p id="error" role="alert"></p>
 <h2>KM003C firmware</h2>
@@ -28,7 +29,7 @@ try{
   const row=document.createElement('tr');row.append(text('td',r.version),text('td',r.build_date));
   const cell=document.createElement('td');cell.append(link(r.url,`Download .mencrypt (${(r.package_size/1024).toFixed(0)} KiB)`));
   const details=document.createElement('details');details.append(text('summary','Release notes and checksum'));
-  details.append(text('pre',r.notes_en||r.notes_zh||'No release notes supplied.'));
+  details.append(text('pre',r.notes_en.trim()||r.notes_zh.trim()||'No release notes supplied.'));
   details.append(text('p',`Original filename: ${r.original_filename}`),text('code',`SHA-256: ${r.sha256}`));
   cell.append(details);row.append(cell);document.querySelector('#firmware').append(row);
  }
